@@ -17,7 +17,7 @@ const ContextProvider = ({ children }) => {
     setTimeout(function(){
       setResultData(prev=>prev+nextword)
 
-    },500*(index+1))
+    },75*index)
   }
 
   const newChat=()=>{
